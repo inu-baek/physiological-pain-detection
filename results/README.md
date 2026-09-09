@@ -4,9 +4,9 @@ This page records the available visual evidence for the prototype. The original 
 
 ## Confusion Matrix
 
-![Original confusion matrix with true labels on rows and predicted labels on columns](confusion-matrix.png)
+![Original confusion matrix with true labels on rows and predicted labels on columns](confusion-matrix-display.svg)
 
-The image has a transparent background; the table preserves its labels and values for readability in either theme.
+The supplied image is displayed on a white background so its labels remain readable in either theme. The [original PNG](confusion-matrix.png) is preserved unchanged.
 
 | True label \ Predicted label | No Pain | Pain | Row total |
 | --- | ---: | ---: | ---: |
