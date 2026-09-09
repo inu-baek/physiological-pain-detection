@@ -1,12 +1,12 @@
 # Results and Signal Captures
 
-This page records what can be read directly from the supplied project images. The original filenames use the project name **Chronisense**.
+This page records the available visual evidence for the prototype. The original media filenames use the project name **Chronisense**.
 
 ## Confusion Matrix
 
 ![Original confusion matrix with true labels on rows and predicted labels on columns](confusion-matrix.png)
 
-The original PNG has a transparent background. Its black axis text may be difficult to read in a dark theme; the table below preserves the labels and values.
+The image has a transparent background; the table preserves its labels and values for readability in either theme.
 
 | True label \ Predicted label | No Pain | Pain | Row total |
 | --- | ---: | ---: | ---: |
@@ -14,19 +14,7 @@ The original PNG has a transparent background. Its black axis text may be diffic
 | Pain | 30 | 149 | 179 |
 | Column total | 185 | 157 | 342 |
 
-The four displayed cells sum to 342. The diagonal contains 304 entries and the off-diagonal contains 38. These totals are arithmetic derived from the exported image; they do not identify the observation unit or establish an independent test set.
-
-Before reporting detection performance, document:
-
-- **TODO:** What each matrix entry represents: sample, time window, episode, participant, or another unit.
-- **TODO:** How the reference labels “No Pain” and “Pain” were assigned.
-- **TODO:** Who or what was measured, under what conditions, and over what duration.
-- **TODO:** Which algorithm, preprocessing settings, and thresholds produced these predictions.
-- **TODO:** Whether threshold development and evaluation used separate data.
-- **TODO:** How repeated or correlated observations were handled.
-- **TODO:** The underlying records and script needed to reproduce the figure.
-
-Generalization to new participants and clinical performance remain unverified.
+The displayed cells sum to 342, with 304 entries on the diagonal and 38 off the diagonal. These totals are arithmetic derived from the image. The observation unit, labeling method, evaluation protocol, and separation of development and evaluation data are not documented. Generalization to new participants and clinical performance remain unverified.
 
 ## EMG Display Captures
 
@@ -34,16 +22,7 @@ Generalization to new participants and clinical performance remain unverified.
 
 ![Second EMG display capture](../images/emg-display-02.png)
 
-Both screenshots show an orange trace with **EMG** selected and **ECG** unselected. They show numerical axes but no axis titles or units. The captures display different numerical ranges; the images alone do not establish their physical units, timing, filtering, calibration, or muscle-activity conditions.
-
-- **TODO:** Identify the plotting application and source-data format.
-- **TODO:** Define both axes and the acquisition rate.
-- **TODO:** State whether the plotted values are raw ADC readings, conditioned sensor output, or a computed feature.
-- **TODO:** Describe electrode placement, capture conditions, and any preprocessing.
-- **TODO:** Add corresponding raw data and timestamps if available.
-- **TODO:** Add an ECG capture and an annotated detection event if available.
-
-The captures' muscle-activity conditions and time units remain unconfirmed.
+Both screenshots show an orange trace with **EMG** selected and **ECG** unselected. They display different numerical ranges without axis titles or units. The images alone do not establish physical units, timing, filtering, calibration, or muscle-activity conditions.
 
 ## Media Provenance
 
