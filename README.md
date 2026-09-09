@@ -22,19 +22,6 @@ I developed an embedded sensing system that uses ECG and EMG sensors to collect 
 - Developed threshold-based logic to identify potential pain episodes.
 - Integrated vibration feedback with the sensing and processing pipeline.
 
-## System Architecture
-
-```mermaid
-flowchart LR
-    ECG[ECG sensor] --> MCU["Arduino<br/>Signal acquisition"]
-    EMG[EMG sensor] --> MCU
-    MCU -->|Serial data| PI["Raspberry Pi<br/>Physiological data processing"]
-    PI --> RULE[Threshold-based detection]
-    RULE -->|Detection criteria satisfied| HAPTIC["Vibration motor<br/>Haptic feedback"]
-```
-
-The diagram shows the functional flow from sensing to feedback. The architecture separates Arduino signal acquisition from Raspberry Pi processing through a serial data path.
-
 ## Hardware & Processing
 
 | Component | Role |
