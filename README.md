@@ -57,7 +57,7 @@ Both captures show the EMG channel selected. They provide a visual record of the
 
 ### Confusion Matrix
 
-![Confusion matrix with true labels on rows and predicted labels on columns](results/confusion-matrix.png)
+![Confusion matrix with true labels on rows and predicted labels on columns](results/confusion-matrix-display.svg)
 
 | True label \ Predicted label | No Pain | Pain |
 | --- | ---: | ---: |
